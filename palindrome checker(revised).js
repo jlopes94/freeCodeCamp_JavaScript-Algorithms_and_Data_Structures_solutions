@@ -1,4 +1,4 @@
-function palindrome(str) { // updated for readability 
+function palindrome(str) { // updated for readability
     let cleanString = str.replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
     let palLength = Math.round(cleanString.length);
     let startIndex = 0;
